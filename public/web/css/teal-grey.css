@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #25252a;
+  color: white;
+  text-shadow: 0.5px 0.5px #42f0e7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  margin: 5px 0px;
+  cursor: default;
+}
+.menu {
+  text-align: center;
+  padding: 20px;
+}
+
+.button {
+  width: 170px;
+  height: 40px;
+  border: 3px solid #42f0e8;
+  color: white;
+  background-color: #25252a;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 1.5rem;
+  outline: none;
+  box-shadow: inset 0 0 0 0 #42f0e8;
+  margin: 0px 5px;
+  cursor: none;
+}
+
+.button:hover {
+  box-shadow: inset 170px 0 0 0 #42f0e8;
+  cursor: pointer;
+  color: black;
+  background-color: #42f0e8;
+  cursor: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 3px #42f0e76a;
+}
+.card:hover {
+  transition: 0.3s;
+  box-shadow: 3px 3px #42f0e7;
+}
+.info {
+  padding: 10px 0px 5px 10px;
+  border-radius: 10px;
+}
+.card-image {
+  border-radius: 10px 10px 0px 0px;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+}

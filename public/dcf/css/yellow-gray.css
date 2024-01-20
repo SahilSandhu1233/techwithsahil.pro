@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    text-align: left;   
+    justify-content: center;
+    font-size: large;
+}
+
+body {
+    background-color: #343434;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    background-color: #ffed65;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  box-shadow: 3px 3px #ffed65;
+}
+
+#img1 {
+  width: 40%;
+}
+
+#img2 {
+  width: 35%;
+}
+
+#img3 {
+  width: 60%;
+}
+
+#img4 {
+  width: 55%;
+}
+
+.index {
+    float: left;
+    border: 2px solid #2b2a2a;
+    background-color: #2b2a2a;
+    width: 17%;
+    height: 100%;
+    top: 0; /* Stay at the top */
+    left: 0;
+    z-index: 1; /* Stay on top */
+    position: fixed;
+}
+
+  .index button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 14px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .index button:hover {
+    background-color: #ffed65;
+    color: black;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .index button.active {
+    background-color: #ffed65;
+    color: black;
+  }
+  
+  /* Style the tab content */
+  .content {
+    float: left;
+    margin-left: 17%;
+    padding: 0px 20px;
+    width: 83%;
+    border-left: none;
+  }
+
+  .endbutton {
+    background-color: #ffed65;
+    color: #2b2a2a;
+    box-shadow: 2px 2px #2b2a2a;
+    padding: 3px 20px;
+    margin: 10px 5px 0px 5px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+  }
+
+.link {
+  text-decoration: none;
+}
+
+  .link:hover {
+    color: #ffed65;
+    text-decoration: underline;
+  }
+
+.ref p {
+  text-align: center;
+}
+
+h4 {
+  text-align:center;
+  font-size: 38px;
+  margin: 20px;
+}
